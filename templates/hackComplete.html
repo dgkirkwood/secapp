@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" href= "{{url_for('static',filename='css/bootstrap-theme.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='style.css') }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+  
+    <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand">EasyHack v2.0</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="nav navbar-nav">
+                  <li ><a href="/">Home</a></li>
+                  <li class="active"><a href="/">Hacks</a></li>
+              </ul>
+          </div>
+      </div>
+    </nav>  
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+
+          <div class="card text-center top30">
+            <div class="card-block">
+              <h2 class="card-title">Hack 1: Phishing</h2>
+              <p class="card-text bottom50">Lead your victim to a malicious domain</p>
+              <form action="{{ url_for('hack1')}}" method="post">
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Attack Launched" disabled="disabled">
+              </form> 
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="pull-right top30">
+          <div class="col-sm-6">
+            <a href="hacks2" class="btn btn-success btn-lg">Next</a>
+          </div>
+          </div>
+
+      </div>
+
+    </div>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{url_for('static',filename='js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{url_for('static',filename='js/myscript.js') }}"></script>
+  </body>
+</html>

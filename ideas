@@ -1,0 +1,94 @@
+Web app on the iPad - i invite you to hack me
+	Include an example at the start to prove it is real connectivity
+
+
+Do i need someone to play dumb? 
+
+	'Choose your hacker' - pick from some sillhouttes of profiles 
+		Illustrate that a hacker could be anyone
+
+	Make the hack like a game - very simple hit the big red button
+
+	Each time the hacker loses and I win - gain a point or lose a point. 
+
+		Simple link in casino
+		Link in facebook email - timeout
+		Apple email - malware from link 
+		Verizon email - attachment 
+
+
+	The hacker is doing very badly! Bonus round for them - 0 day attack. 
+		Good chance to mix it up in the middle
+
+	My perspective can be from the end user or the security adminitrator. 
+
+	How to make the cleanup at the end interesting? 
+
+
+
+198.18.133.37
+
+
+About the security prezo - Patrick
+	Defense in depth - what is it?
+	Increased surface of attack
+	Threatgrid instead of trustsec
+	Emphasise the safety of an airport
+	Focus on what does the user think?
+	Focus on what does IT see?
+
+
+Who is doing this demo? Take out Bob
+How to add fun to punctuate each section
+
+
+
+
+
+LOCKY - dominant in 2016, comeback in April 2017 with 35000 emails. Script embedded in word file. 
+JAFF - May 2017 >100k emails. Also embedded in word file
+
+WANNACRY - 150 countries, >300,000 victims. Exhibits worm-like behaviour. Utilises SMB vulnerabilities that have been patched (14 march) but systems may not be up to date. Can spread over internet into any machine with SMB open port. DOUBLEPULSAR was developed by the NSA and leaked by ShadowBrokers in 2017.
+NHS - had to divert ambulances, turn away non-critical emergencies
+NISSAN - UK had to stop production
+Renault - stop production
+Russia - 1000 govt computers hit
+
+
+
+
+
+Demo Flow - 
+
+	Gavin hacker
+	I play employee - real behaviour
+
+	Hack 1
+		all emails at once
+		I check them all and dismiss.
+
+	Hack 2
+		launch malware
+		i click - get frustrated and leave
+		hacker launches exploit
+
+		????During wait time????
+			Maybe talk about how we saved the employee
+
+		Hacker sees failure
+		Employee returns, logs in and sees remediation
+
+	Admin
+		Look at file - 0day got through but has been analysed
+		Intrusion events - see exploit was caught
+		Correlation events - see talking to ISE
+		AMP cleanup
+		Unquarantine
+		Activate the file again... 
+
+To Finish
+	
+	WannaCry Cisco Timeline
+
+
+	

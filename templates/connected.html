@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" href= "{{url_for('static',filename='css/bootstrap-theme.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='style.css') }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+  
+    <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand">EasyHack v2.0</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="/">Home</a></li>
+                  <li><a href="hacks">Hacks</a></li>
+              </ul>
+          </div>
+      </div>
+    </nav>  
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>Welcome!</h1>
+        <p>Thanks for your purchase of <mark>EasyHack v2.0</mark>. You can now launch attacks from the convenience of your mobile device.</p>
+        <p>To begin, test your server connectivity below.</p>
+        </br>
+        <p><a href="connectivity" target="_blank" class="btn btn-success btn-lg" disabled="disabled">Ready to hack!   <span class="glyphicon glyphicon-ok"></span></a></p>
+      </div>
+
+      <div class="row">
+        <div class="pull-right">
+        <div class="col-sm-6">
+          <a href="hacks" class="btn btn-success btn-lg">Next</a>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{url_for('static',filename='js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{url_for('static',filename='js/myscript.js') }}"></script>
+  </body>
+</html>
